@@ -1,0 +1,60 @@
+login01.hpc.rd.areasciencepark.it:rank1.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank3.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank1.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank4.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank9.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank3.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank0.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank2.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank5.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank1.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank8.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank11.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank3.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank4.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank2.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank0.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank9.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank11.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank5.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank8.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank2.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank4.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank0.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank6.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank8.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank9.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank5.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank11.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank10.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank7.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank6.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank10.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank7.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank6.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank10.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+login01.hpc.rd.areasciencepark.it:rank7.osu_bcast: Failed to modify UD QP to INIT on ibp0s16: Operation not permitted
+
+# OSU MPI Broadcast Latency Test v7.0
+# Size       Avg Latency(us)
+1                       0.91
+2                      51.21
+4                       0.94
+8                      30.89
+16                      1.78
+32                     53.42
+64                      1.20
+128                    24.16
+256                     2.24
+512                     9.93
+1024                   25.19
+2048                    4.55
+4096                   37.04
+8192                   41.51
+16384                  24.39
+32768                 118.39
+65536                 387.32
+131072                639.36
+262144               1057.42
+524288               2701.51
+1048576              5003.11
