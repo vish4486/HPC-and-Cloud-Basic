@@ -1,0 +1,5 @@
+Test Type,Message Size,Avg Latency(us)
+socket,2,0.34
+socket,2,0.35
+socket,2,0.35
+socket,2,0.35
