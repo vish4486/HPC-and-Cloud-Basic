@@ -15,36 +15,36 @@ def plot_scaling(file_path, x_label, y_label, title, output_file):
 
 # Plot OpenMP Strong Scaling
 plot_scaling(
-    '/u/dssc/vnigam/HPC/exercise2/results/omp_strong_scaling.csv',
+    '/u/dssc/vnigam/HPC/exercise2/results/omp_strong_scaling_THIN.csv',
     'Number of OpenMP Threads',
     'Execution Time (ms)',
     'OpenMP Strong Scaling',
-    '/u/dssc/vnigam/HPC/exercise2/results/omp_strong_scaling_plot.png'
+    '/u/dssc/vnigam/HPC/exercise2/images_plots/omp_strong_scaling_plot.png'
 )
 
 # Plot OpenMP Weak Scaling
 plot_scaling(
-    '/u/dssc/vnigam/HPC/exercise2/results/omp_weak_scaling.csv',
+    '/u/dssc/vnigam/HPC/exercise2/results/omp_weak_scaling_THIN.csv',
     'Number of OpenMP Threads',
     'Execution Time (ms)',
     'OpenMP Weak Scaling',
-    '/u/dssc/vnigam/HPC/exercise2/results/omp_weak_scaling_plot.png'
+    '/u/dssc/vnigam/HPC/exercise2/images_plots/omp_weak_scaling_plot.png'
 )
 
 # Plot MPI Strong Scaling
 plot_scaling(
-    '/u/dssc/vnigam/HPC/exercise2/results/mpi_strong_scaling.csv',
+    '/u/dssc/vnigam/HPC/exercise2/results/mpi_strong_scaling_THIN.csv',
     'Number of MPI Tasks',
     'Execution Time (ms)',
     'MPI Strong Scaling',
-    '/u/dssc/vnigam/HPC/exercise2/results/mpi_strong_scaling_plot.png'
+    '/u/dssc/vnigam/HPC/exercise2/images_plots/mpi_strong_scaling_plot.png'
 )
 
 # Plot MPI Weak Scaling
 plot_scaling(
-    '/u/dssc/vnigam/HPC/exercise2/results/mpi_weak_scaling.csv',
+    '/u/dssc/vnigam/HPC/exercise2/results/mpi_weak_scaling_THIN.csv',
     'Number of MPI Tasks',
     'Execution Time (ms)',
     'MPI Weak Scaling',
-    '/u/dssc/vnigam/HPC/exercise2/results/mpi_weak_scaling_plot.png'
+    '/u/dssc/vnigam/HPC/exercise2/images_plots/mpi_weak_scaling_plot.png'
 )
