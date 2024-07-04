@@ -49,7 +49,7 @@ EXECUTABLE="${op_to_exec[$operation]}"
 declare -A algorithms
 if [ "$operation" == "broadcast" ]; then
     algorithms=(
-        [ignore]=0
+        [default]=0
 	[chain]=2
 	[pipeline]=3
         [binary_tree]=5
