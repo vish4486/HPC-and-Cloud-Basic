@@ -78,7 +78,7 @@ for alg_name in "${!algorithms[@]}"; do
         sizes=(4)  # Fixed size
         for np in $(seq 2 2 256); do
             TEMP_OUTPUT=$(mktemp)
-            mpirun --mca coll_tuned_use_dynamic_rules true --mca coll_tuned_${operation}_algorithm $alg_num --map-by ppr:$TASKS_PER_NODE:node -np $np $MPI_DIR/$EXECUTABLE -m ${sizes[0]} -x $WARMUP_ITERATIONS -i $TOTAL_ITERATIONS > $TEMP_OUTPUT
+            mpirun --mca coll_tuned_use_dynamic_rules true --mca coll_tuned_${operation}_algorithm $alg_num --map-by core  -np $np $MPI_DIR/$EXECUTABLE -m ${sizes[0]} -x $WARMUP_ITERATIONS -i $TOTAL_ITERATIONS > $TEMP_OUTPUT
             if [ $? -ne 0 ]; then
                 echo "Error running mpirun for $alg_name with size ${sizes[0]}, np $np, check output file for details."
             else
@@ -106,7 +106,7 @@ for alg_name in "${!algorithms[@]}"; do
         for np in 2 4 8 16 32 64 128 256; do
             for size in "${sizes[@]}"; do
                 TEMP_OUTPUT=$(mktemp)
-                mpirun --mca coll_tuned_use_dynamic_rules true --mca coll_tuned_${operation}_algorithm $alg_num --map-by ppr:$TASKS_PER_NODE:node -np $np $MPI_DIR/$EXECUTABLE -m $size -x $WARMUP_ITERATIONS -i $TOTAL_ITERATIONS > $TEMP_OUTPUT
+                mpirun --mca coll_tuned_use_dynamic_rules true --mca coll_tuned_${operation}_algorithm $alg_num --map-by core  -np $np $MPI_DIR/$EXECUTABLE -m $size -x $WARMUP_ITERATIONS -i $TOTAL_ITERATIONS > $TEMP_OUTPUT
                 if [ $? -ne 0 ]; then
                     echo "Error running mpirun for $alg_name with size $size, np $np, check output file for details."
                 else

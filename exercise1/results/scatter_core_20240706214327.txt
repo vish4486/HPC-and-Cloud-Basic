@@ -1,0 +1,5 @@
+Test Type,Message Size,Avg Latency(us)
+core,2,0.15
+core,2,0.17
+core,2,0.15
+core,2,0.17

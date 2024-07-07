@@ -1,7 +1,6 @@
 #!/bin/bash
-#SBATCH --ntasks-per-node=48
 #SBATCH --exclusive
-#SBATCH --partition=GPU
+#SBATCH --partition=EPYC
 #SBATCH --job-name=osu_benchmark_scatter
 #SBATCH --cpus-per-task=1
 #SBATCH --nodes=2
